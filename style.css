@@ -113,3 +113,16 @@ header ul li a:hover {
 .sci li img {
   max-width: 30px;
 }
+
+.banner .images {
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.banner .images .imgBx {
+  position: relative;
+  width: 50%;
+  height: 50px;
+  background: #ff0;
+}
