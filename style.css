@@ -46,8 +46,37 @@ header ul li a {
   text-decoration: none;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 1px;
 }
 
 header ul li a:hover {
   color: rgba(255, 255, 255, 1);
+}
+
+.banner .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.banner .content .contentBox {
+  text-align: center;
+}
+.banner .content .contentBox img {
+  width: 100%;
+}
+
+.banner .content .contentBox p {
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 300;
+}
+
+.banner .content .contentBox .btn {
+  display: inline-block;
+  font-size: 1.1em;
+  color: #333;
+  background: #fff;
+  padding: 10px 30px;
 }
