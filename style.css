@@ -79,4 +79,37 @@ header ul li a:hover {
   color: #333;
   background: #fff;
   padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.banner .content .contentBox .btn:hover {
+  letter-spacing: 2px;
+}
+
+.sci {
+  position: absolute;
+  bottom: 30px;
+  right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.sci h3 {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 1px;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li img {
+  max-width: 30px;
 }
