@@ -14,6 +14,10 @@
 
 .banner .box {
   position: relative;
-  background: #f00;
+  background: #131f37;
   height: 100vh;
+}
+
+.banner .box:nth-child(2) {
+  background: #f0f;
 }
